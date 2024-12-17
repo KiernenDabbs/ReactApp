@@ -5,6 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start-dev": "nodemon -r dotenv/config index.js"
@@ -36,6 +39,10 @@
     "react-icons": "^5.4.0",
     "react-router-dom": "^6.28.0",
     "react-spinners": "^0.15.0",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.13",
+    "vercel": "^39.2.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
