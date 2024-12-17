@@ -1,0 +1,604 @@
+.body {
+  padding: 2em;
+  padding-top: 0;
+  margin: 0;
+  background-color: white;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+}
+
+.title h1 {
+  font-size: 100%;
+  background-color: rgb(40, 35, 35);
+  color: white;
+}
+
+.searchInput {
+  width: 30%;
+  height: 10%;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.searchButton {
+  width: 20%;
+  padding: 0.5em;
+  margin-top: 0 !important;
+}
+
+.form-select {
+  width: 30% !important;
+  height: 10%;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.select {
+  width: 11% !important;
+  height: 2.5em !important;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.selectLabel {
+  width: auto !important;
+  height: 2.5em !important;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  background-color: rgb(40, 35, 35);
+  color: black;
+}
+
+.formform{
+  margin-left: 5em !important;
+}
+
+.checklabel{
+  margin-left: 2em !important;
+  margin-top: 1.5em;
+}
+
+.checkbox {
+  width: 1em !important;
+  margin-left: 0.5em !important;
+  margin-top: 1.75em !important;
+  padding: 0.5em !important;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.inputGroup{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.homePage {
+  padding: 1.5%;
+  margin: auto;
+  margin-top: 4em;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(50, 45, 45);
+  color: white;
+  margin-bottom: 15%;
+  padding-bottom: 2%;
+}
+
+.homePage h1 {
+  padding: 1%;
+  padding-top: 6px;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 100%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+.mainContent {
+  padding: 1em;
+  min-height: 31.6em;
+  margin: auto;
+}
+
+.dataAccess {
+  min-height: 26em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: auto;
+}
+
+.navbar i {
+  color: white;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+.navbar a {
+  color: white;
+  padding-top: 0.45em;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+.navbar p {
+  color: gray;
+  padding-top: 0.45em;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+.navbar {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+  border-bottom: 10px solid rgb(30, 30, 240);
+  background-color: rgb(40, 35, 35);
+  color: white;
+  width: 100%;
+  padding: 0.03em;
+  padding-left: 1em;
+}
+
+.navbar-nav{
+  padding-top: .5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+.label {
+  padding-left: 12%;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  margin: auto;
+  background-color: rgb(50, 45, 45);
+  border: 1px solid blue;
+  border-radius: 15px;
+  width: 55%;
+  padding: 2em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+.fancyButton {
+  align-items: center;
+  width: auto;
+  min-width: 30%;
+}
+
+.button {
+  width: fit-content;
+  padding: 0.1em;
+  margin: 0.5em;
+}
+
+.searchButton {
+  width: 20%;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+input {
+  width: 30%;
+}
+
+aside {
+  height: 90%;
+  border-right: 1px solid black;
+  padding-left: 2em;
+  padding-right: 1em;
+  float: left;
+  width: 50%;
+  padding-bottom: 2%;
+}
+
+.navbar-brand {
+  padding-right: 0.75em;
+  padding-left: 0.5em;
+  margin-right: 1em;
+  border-right: 1px solid white;
+  
+}
+
+.list td {
+  padding: 0.5em;
+  border-bottom: 1px solid white;
+}
+
+.list tr {
+  padding: 0.5em;
+  border-bottom: 1px solid white;
+}
+
+td {
+  padding-left: 1em !important;
+}
+
+th {
+  padding-left: 0.5em !important;
+}
+
+aside h3 {
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+main {
+  padding-left: 1em;
+  padding-right: 1em;
+  float: right;
+  width: 50%;
+  margin-right: 0%;
+}
+
+main h3 {
+  padding: 1%;
+  padding-top: 6px;
+  text-align: center;
+  width: 50%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+main button {
+  margin-top: 1em;
+  width: 20%;
+}
+
+body h3 {
+  padding: 1%;
+  padding-top: 6px;
+  text-align: center;
+  width: 30%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+.form {
+  min-width: 35%;
+  width: 35%;
+  margin: auto;
+  padding: 1em;
+  padding-bottom: 1%;
+  margin-top: 4em;
+  margin-bottom: 0em;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(50, 45, 45);
+  color: white;
+}
+
+.flex {
+  padding-left: 6%;
+  padding-right: 9%;
+  display: flex;
+  width: 100%;
+}
+
+.form input {
+  width: 75%;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.eye {
+  padding-top: 1em;
+  width: 20%;
+  padding: 0.5em;
+  color: white;
+}
+
+.password {
+  width: 20%;
+}
+
+.form button {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  align-items: center;
+  width: auto;
+  min-width: 30%;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form h3 {
+  font-size: 2em;
+  padding: 1%;
+  padding-top: 6px;
+  text-align: center;
+  width: 100%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+.mainContent {
+  padding: 0;
+  margin: auto;
+}
+
+.mainContent button {
+  margin-top: 1em;
+  width: 20%;
+}
+
+.listContainer {
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.listContainer h3 {
+  padding: 1%;
+  padding-top: 6px;
+  text-align: center;
+  width: 100%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+.lastRow {
+  padding: 0.5em;
+  border-bottom: 1px solid white;
+}
+
+.list {
+  background-color: rgb(50, 45, 45);
+  border-radius: 25px;
+  color: white;
+  padding: 1em;
+  padding-top: 0;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+}
+
+.inputField {
+  background-color: rgb(50, 45, 45);
+  border-radius: 25px;
+  color: white;
+  padding: 1em;
+  padding-top: 0;
+  margin: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.inputField h3 {
+  padding: 1%;
+  padding-top: 6px;
+  text-align: center;
+  width: 100%;
+  height: 1.75em;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 5px solid rgb(25, 30, 240);
+  color: white;
+}
+
+.inputField input {
+  align-content: center;
+  align-items: center;
+  align-content: center;
+  width: 75%;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.inputField button {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  align-items: center;
+  width: auto;
+  min-width: 30%;
+  padding: 0.5em;
+  margin: 0.5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.error {
+  color: red;
+}
+
+.comment {
+  color: yellow;
+}
+
+.comment:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.view {
+  color: aqua;
+}
+
+.view:hover {
+  color: aquamarine;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+}
+
+.delete:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+.show {
+  margin: auto;
+  background-color: rgb(50, 45, 45);
+  border: 1px solid blue;
+  border-radius: 15px;
+  width: 55%;
+  padding: 2em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+.showComment {
+  margin: auto;
+  background-color: rgb(50, 45, 45);
+  border-bottom: 1px solid white;
+  border-radius: 15px;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+footer {
+  clear: both;
+  border-top: 10px solid rgb(30, 30, 240);
+  background-color: rgb(40, 35, 35);
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 125%;
+  bottom: 0;
+}
+
+.notFound {
+  padding: 1em;
+  margin: auto;
+  margin-top: 4em;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(50, 45, 45);
+  color: white;
+  margin-bottom: 5em;
+}
+
+.bugTitle {
+  width: auto;
+  padding-bottom: 13.5% !important;
+  margin-bottom: 5% !important;
+}
+
+.commentPage {
+  padding: 2em;
+  margin: auto;
+}
+
+.returnButton {
+  padding: auto;
+  margin-bottom: 1em;
+}
+
+.commentForm {
+  padding: 1em;
+  margin: auto;
+  margin-top: 4em;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(50, 45, 45);
+  color: white;
+  margin-bottom: 5.6em;
+}
+
+.testCaseForm {
+  padding: 1em;
+  margin: auto;
+  margin-top: 4em;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(50, 45, 45);
+  color: white;
+  margin-bottom: 9.1em;
+}
+
+@media screen and (max-width: 991.5px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .homePage {
+    width: 90%;
+  }
+
+  .mainContent {
+    min-height: 29em;
+    margin: auto;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  aside {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
+  .navbar-brand {
+    border-right: none;
+  }
+
+  main {
+    width: 100%;
+  }
+}
